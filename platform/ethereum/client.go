@@ -1,6 +1,6 @@
 package ethereum
 
-import "github.com/trustwallet/golibs/types"
+import "github.com/Dharitri-org/tw-go-libs/types"
 
 type EthereumClient interface {
 	GetTransactions(address string, coinIndex uint) (types.Txs, error)

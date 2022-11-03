@@ -1,9 +1,9 @@
 package tezos
 
 import (
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/numbers"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/numbers"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) GetTxsByAddress(address string) (types.Txs, error) {

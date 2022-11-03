@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/client"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/client"
 )
 
 type Client struct {
@@ -44,7 +44,7 @@ func (c *Client) GetTxsInBlock(number int64) ([]Transaction, error) {
 	return resp.Transactions, err
 }
 
-//deprecated, no longer need to support staking
+// deprecated, no longer need to support staking
 func (c *Client) GetAccount(address string) (account *Account, err error) {
 	path := fmt.Sprintf("v2/accounts/%s", address)
 	err = c.Get(&account, path, nil)

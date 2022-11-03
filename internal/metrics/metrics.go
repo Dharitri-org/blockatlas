@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trustwallet/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/db"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 type NodeInfo struct {

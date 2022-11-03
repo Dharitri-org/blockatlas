@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trustwallet/golibs/client"
+	"github.com/Dharitri-org/tw-go-libs/client"
 )
 
 type IRpcClient interface {

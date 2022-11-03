@@ -3,7 +3,7 @@ package nimiq
 import (
 	"encoding/json"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 type Tx struct {

@@ -3,9 +3,9 @@ package rpc
 import (
 	"strconv"
 
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 	"github.com/mitchellh/mapstructure"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/network/middleware"
 )
 
 type Client struct {

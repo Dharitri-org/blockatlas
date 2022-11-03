@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/blockatlas/platform/zilliqa/rpc"
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/rpc"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/viewblock"
 )
 
 const transaction = `{

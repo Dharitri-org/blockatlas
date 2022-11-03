@@ -1,7 +1,7 @@
 package binance
 
 import (
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) GetTokenListByAddress(address string) ([]types.Token, error) {

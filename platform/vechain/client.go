@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trustwallet/golibs/client"
+	"github.com/Dharitri-org/tw-go-libs/client"
 )
 
 type Client struct {

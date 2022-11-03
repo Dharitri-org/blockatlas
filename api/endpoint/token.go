@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/services/tokenindexer"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
-	"github.com/trustwallet/golibs/types"
 )
 
 // @Summary Get Tokens

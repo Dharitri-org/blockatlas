@@ -3,8 +3,8 @@ package notifier
 import (
 	"encoding/json"
 
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/internal"
+	"github.com/Dharitri-org/tw-go-libs/types"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"

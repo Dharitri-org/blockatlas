@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 	"github.com/ory/dockertest"
-	"github.com/trustwallet/golibs/network/mq"
 )
 
 var (

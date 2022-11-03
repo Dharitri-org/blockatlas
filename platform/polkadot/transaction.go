@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/trustwallet/golibs/numbers"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/numbers"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 var NetworkByteMap = map[string]byte{

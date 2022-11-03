@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trustwallet/golibs/numbers"
+	"github.com/Dharitri-org/tw-go-libs/numbers"
 
 	"errors"
 
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/coin"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/coin"
 )
 
 type (

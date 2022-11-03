@@ -1,6 +1,6 @@
 package fio
 
-import "github.com/trustwallet/golibs/client"
+import "github.com/Dharitri-org/tw-go-libs/client"
 
 // Client for FIO API
 type Client struct {

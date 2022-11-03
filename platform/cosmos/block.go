@@ -1,6 +1,6 @@
 package cosmos
 
-import "github.com/trustwallet/golibs/types"
+import "github.com/Dharitri-org/tw-go-libs/types"
 
 func (p *Platform) GetBlockByNumber(num int64) (*types.Block, error) {
 	srcTxs, err := p.client.GetBlockByNumber(num)

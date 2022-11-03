@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/numbers"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/numbers"
 )
 
 const (

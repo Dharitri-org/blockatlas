@@ -1,9 +1,9 @@
 package internal
 
 import (
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/golibs/network/mq"
 )
 
 const (

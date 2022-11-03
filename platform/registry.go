@@ -1,8 +1,8 @@
 package platform
 
 import (
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
 )
 
 var (

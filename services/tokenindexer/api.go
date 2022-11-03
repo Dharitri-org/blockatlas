@@ -3,11 +3,11 @@ package tokenindexer
 import (
 	"time"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
 
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/db/models"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 type Instance struct {

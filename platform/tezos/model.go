@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 const (

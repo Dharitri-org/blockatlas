@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/mock"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/mock"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 var (

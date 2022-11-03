@@ -3,12 +3,12 @@ package api
 import (
 	"time"
 
+	"github.com/Dharitri-org/blockatlas/api/endpoint"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/platform"
+	"github.com/Dharitri-org/blockatlas/services/tokenindexer"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/api/endpoint"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
-	"github.com/trustwallet/golibs/network/middleware"
 )
 
 func RegisterTransactionsAPI(router gin.IRouter, api blockatlas.Platform) {

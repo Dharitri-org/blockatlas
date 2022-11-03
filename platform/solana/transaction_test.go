@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/mock"
 )
 
 func TestPlatform_GetTxsByAddress(t *testing.T) {

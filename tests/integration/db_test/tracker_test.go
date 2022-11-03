@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package db_test
@@ -5,8 +6,8 @@ package db_test
 import (
 	"testing"
 
+	"github.com/Dharitri-org/blockatlas/tests/integration/setup"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
 )
 
 func TestDb_SetBlock(t *testing.T) {

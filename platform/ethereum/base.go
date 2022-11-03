@@ -1,12 +1,12 @@
 package ethereum
 
 import (
-	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
-	"github.com/trustwallet/blockatlas/platform/ethereum/bounce"
-	"github.com/trustwallet/blockatlas/platform/ethereum/opensea"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/blockatlas/platform/bitcoin/blockbook"
+	"github.com/Dharitri-org/blockatlas/platform/ethereum/bounce"
+	"github.com/Dharitri-org/blockatlas/platform/ethereum/opensea"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 )
 
 type Platform struct {

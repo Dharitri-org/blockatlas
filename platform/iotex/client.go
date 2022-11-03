@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 type Client struct {

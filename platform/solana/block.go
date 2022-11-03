@@ -1,8 +1,8 @@
 package solana
 
 import (
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 const (

@@ -223,6 +223,9 @@ smartchain:
   api: ""
   collections_api: https://nftview.bounce.finance
 
+dharitri:
+  api: https://gateway.dharitri.one  
+
 sentry:
   dsn: ""
 

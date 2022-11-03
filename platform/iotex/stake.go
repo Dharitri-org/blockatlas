@@ -1,9 +1,9 @@
 package iotex
 
 import (
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/services/assets"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/services/assets"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) GetActiveValidators() (blockatlas.StakeValidators, error) {

@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/mock"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/viewblock"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/mock"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func TestNormalizeTx(t *testing.T) {

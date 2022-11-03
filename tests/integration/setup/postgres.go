@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/db/models"
 	"github.com/ory/dockertest"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/db/models"
 	"gorm.io/gorm"
 )
 

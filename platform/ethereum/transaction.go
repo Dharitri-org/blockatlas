@@ -1,7 +1,7 @@
 package ethereum
 
 import (
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) GetTxsByAddress(address string) (types.Txs, error) {

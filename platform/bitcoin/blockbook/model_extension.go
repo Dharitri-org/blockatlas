@@ -3,7 +3,7 @@ package blockbook
 import (
 	"math/big"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (s *EthereumSpecific) GetStatus() (types.Status, string) {

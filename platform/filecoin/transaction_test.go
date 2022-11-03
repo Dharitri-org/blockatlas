@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/blockatlas/platform/filecoin/explorer"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/platform/filecoin/explorer"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func TestPlatform_NormalizeMessage(t *testing.T) {

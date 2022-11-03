@@ -3,8 +3,8 @@ package zilliqa
 import (
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/viewblock"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) CurrentBlockNumber() (int64, error) {

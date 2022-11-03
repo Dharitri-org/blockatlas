@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package db_test
@@ -6,9 +7,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/tests/integration/setup"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
 )
 
 var database *db.Instance

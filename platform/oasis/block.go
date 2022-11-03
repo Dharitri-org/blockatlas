@@ -1,7 +1,7 @@
 package oasis
 
 import (
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) CurrentBlockNumber() (int64, error) {

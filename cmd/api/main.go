@@ -3,21 +3,21 @@ package main
 import (
 	"context"
 
-	"github.com/trustwallet/blockatlas/internal/metrics"
+	"github.com/Dharitri-org/blockatlas/internal/metrics"
 
-	golibsGin "github.com/trustwallet/golibs/network/gin"
+	golibsGin "github.com/Dharitri-org/tw-go-libs/network/gin"
 
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 
+	"github.com/Dharitri-org/blockatlas/api"
+	"github.com/Dharitri-org/blockatlas/config"
+	"github.com/Dharitri-org/blockatlas/db"
+	_ "github.com/Dharitri-org/blockatlas/docs"
+	"github.com/Dharitri-org/blockatlas/internal"
+	"github.com/Dharitri-org/blockatlas/platform"
+	"github.com/Dharitri-org/blockatlas/services/tokenindexer"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/api"
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/blockatlas/db"
-	_ "github.com/trustwallet/blockatlas/docs"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
 )
 
 const (

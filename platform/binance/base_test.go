@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/trustwallet/golibs/mock"
+	"github.com/Dharitri-org/tw-go-libs/mock"
 )
 
 var (

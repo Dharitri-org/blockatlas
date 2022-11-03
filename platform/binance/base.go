@@ -1,8 +1,8 @@
 package binance
 
 import (
-	"github.com/trustwallet/blockatlas/platform/binance/staking"
-	"github.com/trustwallet/golibs/coin"
+	"github.com/Dharitri-org/blockatlas/platform/binance/staking"
+	"github.com/Dharitri-org/tw-go-libs/coin"
 )
 
 type Platform struct {

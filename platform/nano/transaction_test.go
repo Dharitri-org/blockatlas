@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func TestNormalize(t *testing.T) {

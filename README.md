@@ -67,8 +67,8 @@ The whole flow is not available at Atlas repo. We will have integration tests wi
 Download source to `GOPATH`
 
 ```shell
-go get -u github.com/trustwallet/blockatlas
-cd $(go env GOPATH)/src/github.com/trustwallet/blockatlas
+go get -u github.com/Dharitri-org/blockatlas
+cd $(go env GOPATH)/src/github.com/Dharitri-org/blockatlas
 ```
 
 #### Build and run

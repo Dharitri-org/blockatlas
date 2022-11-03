@@ -3,11 +3,11 @@ package tokenindexer
 import (
 	"encoding/json"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/types"
 )
 
 type ConsumerIndexer struct {

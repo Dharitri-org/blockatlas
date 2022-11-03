@@ -1,9 +1,9 @@
 package filecoin
 
 import (
-	"github.com/trustwallet/blockatlas/platform/filecoin/rpc"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/platform/filecoin/rpc"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (p *Platform) CurrentBlockNumber() (int64, error) {

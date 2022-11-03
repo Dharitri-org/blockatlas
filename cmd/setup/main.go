@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/golibs/network/middleware"
-	"github.com/trustwallet/golibs/network/mq"
+	"github.com/Dharitri-org/blockatlas/config"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/internal"
+	"github.com/Dharitri-org/blockatlas/platform"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
 )
 
 const (

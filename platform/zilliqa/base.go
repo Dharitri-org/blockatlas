@@ -1,9 +1,9 @@
 package zilliqa
 
 import (
-	"github.com/trustwallet/blockatlas/platform/zilliqa/rpc"
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
-	"github.com/trustwallet/golibs/coin"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/rpc"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa/viewblock"
+	"github.com/Dharitri-org/tw-go-libs/coin"
 )
 
 type Platform struct {
