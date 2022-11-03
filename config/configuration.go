@@ -209,6 +209,9 @@ type Configuration struct {
 	Sentry struct {
 		DSN string `mapstructure:"dsn"`
 	} `mapstructure:"sentry"`
+	Dharitri struct {
+		API string `mapstructure:"api"`
+	} `mapstructure:"dharitri"`
 	Metrics struct {
 		Path string `mapstructure:"path"`
 	} `mapstructure:"metrics"`

@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/db/models"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	"gorm.io/gorm/clause"
 )
 

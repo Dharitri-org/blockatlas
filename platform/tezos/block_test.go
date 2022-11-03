@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/golibs/mock"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/mock"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func TestProcessRpcBlock(t *testing.T) {

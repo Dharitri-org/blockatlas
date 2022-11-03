@@ -3,14 +3,14 @@ package internal
 import (
 	"flag"
 
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
+	"github.com/Dharitri-org/blockatlas/config"
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 	"github.com/gin-contrib/cors"
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/golibs/network/mq"
 
 	"path/filepath"
 	"time"

@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/golibs/types"
 )
 
 const (

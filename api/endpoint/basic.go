@@ -1,8 +1,8 @@
 package endpoint
 
 import (
+	"github.com/Dharitri-org/blockatlas/internal"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/internal"
 	"net/http"
 )
 

@@ -1,6 +1,6 @@
 package binance
 
-import "github.com/trustwallet/golibs/types"
+import "github.com/Dharitri-org/tw-go-libs/types"
 
 func (p *Platform) CurrentBlockNumber() (int64, error) {
 	block, err := p.client.FetchLatestBlockNumber()

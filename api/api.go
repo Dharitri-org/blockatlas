@@ -1,14 +1,14 @@
 package api
 
 import (
+	"github.com/Dharitri-org/blockatlas/config"
+	_ "github.com/Dharitri-org/blockatlas/docs"
+	"github.com/Dharitri-org/blockatlas/platform"
+	"github.com/Dharitri-org/blockatlas/services/tokenindexer"
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-	"github.com/trustwallet/blockatlas/config"
-	_ "github.com/trustwallet/blockatlas/docs"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
 )
 
 func SetupPlatformAPI(router gin.IRouter) {

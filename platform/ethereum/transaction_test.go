@@ -3,8 +3,8 @@ package ethereum
 import (
 	"testing"
 
+	"github.com/Dharitri-org/tw-go-libs/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/golibs/types"
 )
 
 type Client string

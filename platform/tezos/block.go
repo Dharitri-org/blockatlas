@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/types"
 
 	"github.com/itchyny/timefmt-go"
 )

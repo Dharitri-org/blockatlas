@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/services/assets"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/services/assets"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 const (

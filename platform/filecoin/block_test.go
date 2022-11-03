@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/Dharitri-org/tw-go-libs/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/golibs/mock"
 )
 
 func TestPlatform_CurrentBlockNumber(t *testing.T) {

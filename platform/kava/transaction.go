@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trustwallet/golibs/numbers"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/numbers"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 const kavaDenom = "ukava"

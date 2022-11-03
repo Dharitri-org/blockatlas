@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/types"
 )
 
 // @Summary Get Transactions

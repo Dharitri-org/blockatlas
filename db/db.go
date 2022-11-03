@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/trustwallet/blockatlas/db/models"
+	"github.com/Dharitri-org/blockatlas/db/models"
 
 	"gorm.io/gorm/logger"
 

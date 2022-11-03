@@ -4,22 +4,22 @@ import (
 	"context"
 	"time"
 
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 
-	"github.com/trustwallet/blockatlas/platform"
+	"github.com/Dharitri-org/blockatlas/platform"
 
-	"github.com/trustwallet/golibs/network/mq"
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
+	"github.com/Dharitri-org/blockatlas/services/tokenindexer"
 
-	"github.com/trustwallet/blockatlas/services/notifier"
+	"github.com/Dharitri-org/blockatlas/services/notifier"
 
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/blockatlas/services/subscriber"
+	"github.com/Dharitri-org/blockatlas/config"
+	"github.com/Dharitri-org/blockatlas/services/subscriber"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/internal"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/internal"
 )
 
 const (

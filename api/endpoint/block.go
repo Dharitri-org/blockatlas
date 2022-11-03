@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
 )
 
 // @Summary Get Block

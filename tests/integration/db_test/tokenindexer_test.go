@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package db_test
@@ -6,10 +7,10 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/Dharitri-org/blockatlas/db/models"
+	"github.com/Dharitri-org/blockatlas/tests/integration/setup"
 	gocache "github.com/patrickmn/go-cache"
 	assert "github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
 )
 
 func Test_AddNewAssets_Simple(t *testing.T) {

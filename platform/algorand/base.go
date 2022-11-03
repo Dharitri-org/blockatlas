@@ -1,7 +1,7 @@
 package algorand
 
 import (
-	"github.com/trustwallet/golibs/coin"
+	"github.com/Dharitri-org/tw-go-libs/coin"
 )
 
 type Platform struct {

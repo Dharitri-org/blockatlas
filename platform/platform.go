@@ -1,41 +1,42 @@
 package platform
 
 import (
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/blockatlas/platform/oasis"
+	"github.com/Dharitri-org/blockatlas/config"
+	"github.com/Dharitri-org/blockatlas/platform/dharitri"
+	"github.com/Dharitri-org/blockatlas/platform/oasis"
 
-	"github.com/trustwallet/blockatlas/platform/filecoin"
-	"github.com/trustwallet/blockatlas/platform/kava"
+	"github.com/Dharitri-org/blockatlas/platform/filecoin"
+	"github.com/Dharitri-org/blockatlas/platform/kava"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/platform/aeternity"
-	"github.com/trustwallet/blockatlas/platform/aion"
-	"github.com/trustwallet/blockatlas/platform/algorand"
-	"github.com/trustwallet/blockatlas/platform/binance"
-	"github.com/trustwallet/blockatlas/platform/bitcoin"
-	"github.com/trustwallet/blockatlas/platform/cosmos"
-	"github.com/trustwallet/blockatlas/platform/elrond"
-	"github.com/trustwallet/blockatlas/platform/ethereum"
-	"github.com/trustwallet/blockatlas/platform/fio"
-	"github.com/trustwallet/blockatlas/platform/harmony"
-	"github.com/trustwallet/blockatlas/platform/icon"
-	"github.com/trustwallet/blockatlas/platform/iotex"
-	"github.com/trustwallet/blockatlas/platform/nano"
-	"github.com/trustwallet/blockatlas/platform/near"
-	"github.com/trustwallet/blockatlas/platform/nebulas"
-	"github.com/trustwallet/blockatlas/platform/nimiq"
-	"github.com/trustwallet/blockatlas/platform/ontology"
-	"github.com/trustwallet/blockatlas/platform/polkadot"
-	"github.com/trustwallet/blockatlas/platform/ripple"
-	"github.com/trustwallet/blockatlas/platform/solana"
-	"github.com/trustwallet/blockatlas/platform/stellar"
-	"github.com/trustwallet/blockatlas/platform/tezos"
-	"github.com/trustwallet/blockatlas/platform/theta"
-	"github.com/trustwallet/blockatlas/platform/tron"
-	"github.com/trustwallet/blockatlas/platform/vechain"
-	"github.com/trustwallet/blockatlas/platform/waves"
-	"github.com/trustwallet/blockatlas/platform/zilliqa"
-	"github.com/trustwallet/golibs/coin"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/blockatlas/platform/aeternity"
+	"github.com/Dharitri-org/blockatlas/platform/aion"
+	"github.com/Dharitri-org/blockatlas/platform/algorand"
+	"github.com/Dharitri-org/blockatlas/platform/binance"
+	"github.com/Dharitri-org/blockatlas/platform/bitcoin"
+	"github.com/Dharitri-org/blockatlas/platform/cosmos"
+	"github.com/Dharitri-org/blockatlas/platform/elrond"
+	"github.com/Dharitri-org/blockatlas/platform/ethereum"
+	"github.com/Dharitri-org/blockatlas/platform/fio"
+	"github.com/Dharitri-org/blockatlas/platform/harmony"
+	"github.com/Dharitri-org/blockatlas/platform/icon"
+	"github.com/Dharitri-org/blockatlas/platform/iotex"
+	"github.com/Dharitri-org/blockatlas/platform/nano"
+	"github.com/Dharitri-org/blockatlas/platform/near"
+	"github.com/Dharitri-org/blockatlas/platform/nebulas"
+	"github.com/Dharitri-org/blockatlas/platform/nimiq"
+	"github.com/Dharitri-org/blockatlas/platform/ontology"
+	"github.com/Dharitri-org/blockatlas/platform/polkadot"
+	"github.com/Dharitri-org/blockatlas/platform/ripple"
+	"github.com/Dharitri-org/blockatlas/platform/solana"
+	"github.com/Dharitri-org/blockatlas/platform/stellar"
+	"github.com/Dharitri-org/blockatlas/platform/tezos"
+	"github.com/Dharitri-org/blockatlas/platform/theta"
+	"github.com/Dharitri-org/blockatlas/platform/tron"
+	"github.com/Dharitri-org/blockatlas/platform/vechain"
+	"github.com/Dharitri-org/blockatlas/platform/waves"
+	"github.com/Dharitri-org/blockatlas/platform/zilliqa"
+	"github.com/Dharitri-org/tw-go-libs/coin"
 )
 
 const (
@@ -98,6 +99,7 @@ func getAllHandlers() blockatlas.Platforms {
 		coin.Near().Handle:         near.Init(config.Default.Near.API),
 		coin.Elrond().Handle:       elrond.Init(coin.ELROND, config.Default.Elrond.API),
 		coin.Filecoin().Handle:     filecoin.Init(config.Default.Filecoin.API, config.Default.Filecoin.Explorer),
+		coin.Dharitri().Handle:     dharitri.Init(coin.DHARITRI, config.Default.Dharitri.API),
 		coin.Oasis().Handle:        oasis.Init(config.Default.Oasis.API),
 	}
 }

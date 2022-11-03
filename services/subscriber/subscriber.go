@@ -3,12 +3,12 @@ package subscriber
 import (
 	"encoding/json"
 
-	"github.com/trustwallet/blockatlas/internal"
+	"github.com/Dharitri-org/blockatlas/internal"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/golibs/types"
 )
 
 func RunSubscriber(database *db.Instance, delivery amqp.Delivery) error {

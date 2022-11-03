@@ -3,8 +3,8 @@ package viewblock
 import (
 	"fmt"
 
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 )
 
 type Client struct {

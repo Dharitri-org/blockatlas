@@ -5,8 +5,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/trustwallet/golibs/asset"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/asset"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 type Asset struct {

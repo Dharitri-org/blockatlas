@@ -1,7 +1,7 @@
 package blockbook
 
 import (
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (c *Client) GetTokenList(address string, coinIndex uint) ([]types.Token, error) {

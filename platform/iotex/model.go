@@ -1,6 +1,6 @@
 package iotex
 
-import "github.com/trustwallet/golibs/types"
+import "github.com/Dharitri-org/tw-go-libs/types"
 
 type Response struct {
 	ActionInfo []*ActionInfo `json:"actionInfo"`

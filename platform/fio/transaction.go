@@ -10,7 +10,7 @@ import (
 
 	"errors"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 const (

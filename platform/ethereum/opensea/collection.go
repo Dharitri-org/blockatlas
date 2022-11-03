@@ -1,10 +1,10 @@
 package opensea
 
 import (
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/golibs/asset"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/blockatlas/pkg/blockatlas"
+	"github.com/Dharitri-org/tw-go-libs/asset"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 var (

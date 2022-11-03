@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
+	"github.com/Dharitri-org/blockatlas/platform/bitcoin/blockbook"
 
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/mock"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	mapset "github.com/deckarep/golang-set"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/mock"
-	"github.com/trustwallet/golibs/types"
 )
 
 var (

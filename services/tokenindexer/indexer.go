@@ -3,12 +3,12 @@ package tokenindexer
 import (
 	"strconv"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/db/models"
+	"github.com/Dharitri-org/blockatlas/services/notifier"
+	"github.com/Dharitri-org/tw-go-libs/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/blockatlas/services/notifier"
-	"github.com/trustwallet/golibs/types"
 )
 
 const (

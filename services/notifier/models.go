@@ -1,6 +1,6 @@
 package notifier
 
-import "github.com/trustwallet/golibs/types"
+import "github.com/Dharitri-org/tw-go-libs/types"
 
 func buildNotificationsByAddress(address string, txs types.Txs) []types.TransactionNotification {
 	transactionsByAddress := toUniqueTransactions(findTransactionsByAddress(txs, address))

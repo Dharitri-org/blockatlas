@@ -1,10 +1,10 @@
 package bitcoin
 
 import (
-	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
-	"github.com/trustwallet/golibs/client"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/blockatlas/platform/bitcoin/blockbook"
+	"github.com/Dharitri-org/tw-go-libs/client"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 )
 
 type Platform struct {

@@ -8,8 +8,8 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/Dharitri-org/tw-go-libs/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/golibs/mock"
 )
 
 func TestPlatform_GetTokenListByAddress(t *testing.T) {

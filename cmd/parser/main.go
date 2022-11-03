@@ -9,16 +9,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/trustwallet/golibs/network/middleware"
+	"github.com/Dharitri-org/tw-go-libs/network/middleware"
 
-	"github.com/trustwallet/blockatlas/config"
+	"github.com/Dharitri-org/blockatlas/config"
 
+	"github.com/Dharitri-org/blockatlas/db"
+	"github.com/Dharitri-org/blockatlas/internal"
+	"github.com/Dharitri-org/blockatlas/platform"
+	"github.com/Dharitri-org/blockatlas/services/parser"
+	"github.com/Dharitri-org/tw-go-libs/network/mq"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/parser"
-	"github.com/trustwallet/golibs/network/mq"
 )
 
 const (

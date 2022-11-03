@@ -3,9 +3,9 @@ package blockbook
 import (
 	"strings"
 
-	Address "github.com/trustwallet/golibs/address"
-	"github.com/trustwallet/golibs/coin"
-	"github.com/trustwallet/golibs/types"
+	Address "github.com/Dharitri-org/tw-go-libs/address"
+	"github.com/Dharitri-org/tw-go-libs/coin"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func (c *Client) GetTransactions(address string, coinIndex uint) (types.Txs, error) {

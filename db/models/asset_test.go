@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trustwallet/golibs/types"
+	"github.com/Dharitri-org/tw-go-libs/types"
 )
 
 func TestAsset_isValid1(t *testing.T) {
